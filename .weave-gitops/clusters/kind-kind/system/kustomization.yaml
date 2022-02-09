@@ -9,3 +9,4 @@ resources:
 - flux-system-kustomization-resource.yaml
 - flux-user-kustomization-resource.yaml
 - wego-app.yaml
+- profiles.yaml
