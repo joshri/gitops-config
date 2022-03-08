@@ -7,3 +7,4 @@ resources:
 - app.yaml
 - podinfo-deploy-gitops-deploy.yaml
 - podinfo-deploy-gitops-source.yaml
+- etcd-release.yaml
