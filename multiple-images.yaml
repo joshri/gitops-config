@@ -1,8 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: memcached
-  namespace: default
+  name: ww-gitops
+  namespace: flux-system
+  annotations:
+    metadata.weave.works/description: 'This is my Weave GitOps applicatin'
+    metadata.weave.works/metrics-dashboard: 'https://www.google.com/'
+    metadata.weave.works/anything: 'this is other random thing'
 spec:
   replicas: 2
   selector:
